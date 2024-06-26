@@ -1,0 +1,240 @@
+body{
+    background: linear-gradient(#ef5fef93,#13778032,#ef5fef93);
+}
+/* navbar start */
+.navbar-brand{
+    font-family: forte;
+    font-size: 50px;
+    color: rgb(255, 3, 3) !important;
+}
+.navbgcolor{
+    background: linear-gradient(#2eedff,#137780,#114a50);
+}
+.navbar-text{
+    color: #fba2e2;
+}
+.liitem a{
+    color: yellow !important;
+}
+.liitem:hover{
+    background-color: red;
+    border: solid red 1px;
+    border-radius: 10px;
+    
+}
+/* navbar end */
+
+
+
+
+/* video and TextOnVideo start */
+.vid-parent{
+    position: relative;
+}
+.remove-vid-margin{
+    margin: 0px;
+    padding: 0px;
+}
+video{
+    width: 100%;
+    height: 100%;
+}
+.vid-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #345858;
+    z-index: 1;
+    opacity: 0.7;
+}
+.vid-content{
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    left: 36%;
+    text-align: center;
+    font-family: snap;
+    font-weight: 1900;
+    font-style: italic;
+    text-shadow: 2px 1px 1px#960202;
+    /* color: rgb(244, 145, 7); */
+    animation: fontcolor 5s ease-in-out 0s infinite alternate;
+}
+
+@keyframes fontcolor {
+    0%{
+        color: rgb(244, 145, 7);
+    }  
+    25%{
+        color: rgb(126, 244, 7);
+    }  
+    50%{
+        color: rgb(7, 244, 161);
+    }  
+    75%{
+        color: rgb(244, 7, 244);
+    }  
+    100%{
+        color: rgb(248, 249, 253);
+    }
+}
+/* video and TextOnVideo end */
+
+.courseimg{
+    width: 200px;
+    margin: 5px;
+}
+.card-img-top {
+    border-top-left-radius: calc(0.9rem - 1px);
+    border-top-right-radius: calc(0.9rem - 1px);
+}
+
+
+/* banner start */
+.iconsize{
+    width: 25px; 
+}
+.bottom-banner{
+    color: white;
+    padding: 5px;
+}
+/* banner end */
+
+.iconsizeregistration{
+    width: 12px;
+}
+
+
+
+/* start course container */
+/* .coursecontainer{
+    position: relative;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 70px
+} */
+/* end course container */
+
+.horizantalline{
+    border: 2px solid rgb(122, 115, 115);
+    margin-top: 25px;
+    width: 100%;
+    height: 3%;
+}
+
+
+/* start contact us */
+.bgstyle{
+    background-image: linear-gradient(240deg,#ed213a,#93291e);
+    padding: 3rem;
+    height: 13rem;
+    margin-top: 4rem;
+    padding-left: 5px;
+    transform: rotate(10deg);
+    z-index: -5;
+}
+
+.addgap{
+    display: flex;
+    column-gap: 20px;
+}
+/* end contact us */
+
+
+@media screen and (min-width:0px) and (max-width:700px) {
+    .my-content,.txt-banner{
+        display: none;
+    } 
+    
+    .vid-content{
+        top: 15%;
+        left: 40%;
+    }
+    
+}
+
+.Feedback{
+    display: flex;
+   margin-left: 410px;
+   padding: 5px;
+    color: rgb(246, 254, 10);
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+/* slider start */
+
+.demo{ background: linear-gradient(#959695,#525252,#111010); }
+.testimonial{
+    padding: 35px 50px;
+    margin: 0 20px 30px;
+    border-radius: 0 70px 0 70px;
+    border: 5px solid #ffc33c;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+.testimonial .pic{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+.testimonial .title{
+    display: block;
+    margin: 0 0 7px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffc33c;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.testimonial .post{
+    display: block;
+    font-size: 15px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.testimonial .description{
+    font-size: 16px;
+    color: #fff;
+    line-height: 30px;
+}
+.owl-wrapper-outer{
+  margin-left: 190px;
+}
+.owl-pagination{
+  margin-left: 380px;
+}
+.owl-theme .owl-controls{ margin-top: 0; }
+.owl-theme .owl-controls .owl-page span{
+    background: #fff;
+    opacity: 0.8;
+    transition: all 0.2s ease 0s;
+}
+.owl-theme .owl-controls .owl-page.active span{ background: #ffc33c; }
+
+/* slider end */
+
+
+/*start social-media banner*/
+a.social-hover:hover{
+    padding: 5px 100px;
+    text-decoration: none;
+    background-color: #58d651;
+}
+/*end social-media banner*/

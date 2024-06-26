@@ -1,0 +1,28 @@
+body{
+    background-color: rgba(221, 246, 173, 0.8);
+}
+.navbar-brand{
+    font-family: "Ubuntu",sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* plus button for adding new users bottom right */
+/* .box{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    margin-bottom: 30px;
+    
+} */
+
+.iconsize{
+    width: 14px; 
+}
+
+.mr-2, .mx-2 {
+    margin-right: 0.5rem!important;
+    margin-top: -5px;
+}
